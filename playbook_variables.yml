@@ -1,0 +1,56 @@
+---
+# This is the variables for the MNC Playbook
+
+  core0_ip: 172.31.26.157
+  core1_ip: 172.31.23.208
+  data0_ip: 172.31.26.157
+  data1_ip: 172.31.16.31
+  core0_hostname: core20.illumioeval.com
+  core1_hostname: core21.illumioeval.com
+  data0_hostname: data20.illumioeval.com
+  data1_hostname: data21.illumioeval.com
+# IP of PCE, or IP of loadbalancer if one is used, the IP pce_fqdn resolves to
+  pce_ip: 52.9.176.78
+# Fully Qualified Domain name for the pce_fqdn
+  pce_fqdn: pce2.illumioeval.com
+  smtp_relay_address: 127.0.0.1:25
+# cluster_public_ips: 52.9.176.78
+  service_discovery_fqdn: core20.illumioeval.com
+  service_discovery_encryption_key: 6h09ACGeLksZXkG5OtkcDw==
+  email_display_name: "'illumio-pce'"
+  email_address: chip.hwang@illumio.com
+# name to software file
+  software: software
+# name of certificate bundle file
+  cert: star.illumioeval.com.bundle 
+# name of certificate key file
+  key: star.illumioeval.com.key 
+# ven repo URL
+  ven_repo: venrepo1.illumioeval.com
+# ven reo IP
+  ven_ip: 54.183.200.31
+
+
+
+
+
+
+
+
+
+#pce_fqdn: chipcluster.illumioeval.com
+#service_discovery_fqdn: chipcluster.illumioeval.com
+#cluster_public_ips:
+#cluster_fqdn:
+#    - 10.7.0.151
+#    - 10.7.0.152
+# node_type: core0
+# node types core1 data0 data1
+# snc0
+#web_service_certificate: /opt/illumio_pce/ssl/star.illumioeval.com.bundle
+#web_service_private_key: /opt/illumio_pce/ssl/star.illumioeval.com.key
+#service_discovery_encryption_key: 6h09ACGeLksZXkG5OtkcDw==
+#email_address: chip.hwang@illumio.com
+#email_display_name: 'illumio-pce'
+#smtp_relay_address: 192.168.10.210:1025
+#internal_service_ip: 10.7.0.151
